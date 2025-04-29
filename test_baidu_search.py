@@ -9,7 +9,6 @@ class TestBaidu(unittest.TestCase):
 
     def setUp(self):
         self.dr = webdriver.Chrome()
-        # self.dr = webdriver.Edge()
         self.url = "https://www.baidu.com"
         self.dr.maximize_window()
 
