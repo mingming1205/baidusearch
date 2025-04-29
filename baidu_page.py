@@ -20,7 +20,7 @@ class BaiduPage(BasePage):
         
 
 class MailPage(BasePage):
-
+    @property
     def account_page(self):
         pass
 
