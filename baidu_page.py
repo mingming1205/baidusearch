@@ -17,6 +17,7 @@ class BaiduPage(BasePage):
     @property
     def search_button(self):
         return self.driver.find_element(By.ID,'su')
+        
 
 class MailPage(BasePage):
 
