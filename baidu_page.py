@@ -6,7 +6,6 @@ class BasePage:
 
     def open(self,url):
         self.driver.get(url)
-        time.sleep(2)
 
 class BaiduPage(BasePage):
 
