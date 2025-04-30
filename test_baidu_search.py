@@ -37,7 +37,7 @@ if __name__ == '__main__':
     html_report = './test_report/' + now_time + 'report.html'
 
     runner = HTMLTestRunner(stream=fp,
-                            title="测试报告",
+                            title="HTMLTestReport",
                             description="运行环境：Windows11，Chrome浏览器"
                             )
     runner.run(suit)
