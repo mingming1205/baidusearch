@@ -1,10 +1,12 @@
 from selenium.webdriver.common.by import By
+
 class BasePage:
     def __init__(self,driver):
         self.driver = driver
 
     def open(self,url):
         self.driver.get(url)
+        time.sleep(1)
 
 class BaiduPage(BasePage):
 
