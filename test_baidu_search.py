@@ -27,8 +27,6 @@ class TestBaidu(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    # unittest.main()
-
     test_dir = './'
     suit = unittest.defaultTestLoader.discover(test_dir, pattern='test_*.py')
 
