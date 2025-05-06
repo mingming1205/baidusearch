@@ -30,7 +30,7 @@ if __name__ == '__main__':
     test_dir = './'
     suit = unittest.defaultTestLoader.discover(test_dir, pattern='test_*.py')
 
-    now_time = time.strftime("%Y%m%d %H%M%S", time.localtime(time.time()))
+    now_time = time.strftime("%Y%m%d_%H%M%S", time.localtime(time.time()))
 
     html_report = './test_report/' + now_time + 'report.html'
 
